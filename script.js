@@ -2,9 +2,6 @@ var container = document.getElementById('form');
 var count = container.getElementsByTagName('fieldset').length;
 const base = [];
 const answers = [];
-function insertAfter(newNode, existingNode) {
- existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
-}
 for (let i = 0; i < count; i++) {
  answers[i] = container.getElementsByTagName('input')[i];
  let thing = container.getElementsByTagName('fieldset')[i];
@@ -15,7 +12,6 @@ for (let i = 0; i < count; i++) {
  input.setAttribute("value", "NOTSET");
  thing.after(input);
 }
-alert(document.getElementById('0').value);
 
 for (let i = 0; i < count; i++) {
  var thing = [];
