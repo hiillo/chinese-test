@@ -1,0 +1,46 @@
+.main-container{
+ padding:10px;
+}
+.index-header{
+ background: red;
+ width: 40%;
+ height: 100px;
+ position:relative;
+ z-index:900;
+ line-height:100px;
+ padding-left:100px;
+}
+.header-underlay{
+ height:100px;
+ width: 60%;
+ background:cyan;
+ position: absolute;
+ transform:translate(0, 21px);
+ z-index:1;
+}
+.index-text{
+ background: green;
+ width:80%;
+ padding:30px;
+ border-radius:10px;
+}
+.index-buttons{
+ display:flex;
+ width:100%;
+ margin-left:-19px;
+ padding:10px;
+}
+.start-test-button{
+ background: cyan;
+ width: 200px;
+ padding:10px;
+ border-radius:5px;
+ margin:10px;
+}
+.result-button{
+ background: yellow;
+ width:200px;
+ padding:10px;
+ border-radius:5px;
+ margin:10px;
+}

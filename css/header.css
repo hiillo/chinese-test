@@ -1,0 +1,23 @@
+.navbar{
+ color: black;
+ background:blue;
+ height:100px;
+ width:100%;
+ position:fixed;
+}
+.header-button{
+ transform:translate(0,68%);
+ height:50%;
+ width:100px;
+ background:white;
+ display:inline-block;
+}
+.header-title{
+ height:100%;
+ width:200px;
+ background:white;
+ display:inline-block;
+}
+.header-text{
+ margin-left:25%;
+}
